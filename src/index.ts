@@ -53,3 +53,16 @@ function fetchUserData(url: string) {
 // default function call
 
 fetchUserData("https://api.github.com/users");
+
+// add search function
+
+formSubmit.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const searchTerm = getUsername.value.toLocaleUpperCase();
+
+  try {
+  } catch (error) {
+    console.log(error);
+  }
+});

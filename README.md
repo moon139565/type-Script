@@ -1,4 +1,4 @@
-# Project Upcoming
+# Project Name: TypeScript practice website
 
 tech
 
